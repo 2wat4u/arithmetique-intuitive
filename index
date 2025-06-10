@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide des méthodes intuitives</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background-color: #005aa7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2, h3 {
+      color: #005aa7;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .start-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .start-button button {
+      background-color: #28a745;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .start-button button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Guide des méthodes intuitives</h1>
+    <p>À lire avant de commencer le jeu</p>
+  </header>
+
+  <main>
+    <!-- Ton contenu copié tel quel -->
+<div>
+  <h2>La méthode d’addition intuitive</h2>
+
+  <p>La méthode d’addition intuitive de gauche à droite avec anticipation des retenues est une approche innovante pour effectuer des additions de grands nombres rapidement et efficacement, sans utiliser de démarche écrite. Cette méthode repose sur la capacité à anticiper les retenues en fonction des colonnes suivantes, permettant de simplifier le calcul mental. Elle convient parfaitement pour des nombres à plusieurs chiffres et peut être enseignée aux élèves ou utilisée dans la vie quotidienne pour accélérer les calculs.</p>
+
+  <h3>Les principes de la méthode</h3>
+
+  <p><strong>Additionner de gauche à droite :</strong><br>
+  Contrairement à la méthode classique qui additionne les unités en premier (de droite à gauche), cette méthode commence par les chiffres les plus significatifs (milliers, centaines, etc.).</p>
+
+  <p><strong>Anticiper les retenues :</strong><br>
+  Après avoir additionné une colonne, vous analysez immédiatement la somme possible de la colonne suivante pour déterminer si elle dépasse 10. Si c’est le cas, vous ajoutez une retenue au résultat actuel.</p>
+
+  <p><strong>Procéder jusqu’à la dernière colonne :</strong><br>
+  Continuez cette logique pour chaque colonne, en ajustant les retenues à chaque étape jusqu’à atteindre les unités.</p>
+
+  <h3>Comment appliquer la méthode</h3>
+
+  <p><strong>Exemple : 8937 + 4697</strong></p>
+
+  <p><strong>Commencez par les milliers :</strong><br>
+  Additionnez 8 + 4 = 12.<br>
+  Regardez les centaines suivantes : 9 + 6 = 15 (10 ou plus). Ajoutez donc 1 à 12, ce qui donne 13.</p>
+
+  <p><strong>Passez aux centaines :</strong><br>
+  Additionnez 9 + 6 = 15.<br>
+  Regardez les dizaines suivantes : 3 + 9 = 12 (10 ou plus). Ajoutez donc 1 à 15, ce qui donne 16.</p>
+
+  <p><strong>Additionnez les dizaines :</strong><br>
+  Additionnez 3 + 9 = 12.<br>
+  Regardez les unités suivantes : 7 + 7 = 14 (10 ou plus). Ajoutez donc 1 à 12, ce qui donne 13.</p>
+
+  <p><strong>Terminez par les unités :</strong><br>
+  Additionnez 7 + 7 = 14. Pas de chiffres à droite, donc aucune retenue supplémentaire.<br>
+  Total pour les unités : 14.</p>
+
+  <p><strong>Résultat final :</strong><br>
+  Concaténez les résultats : 13 (milliers), 6 (centaines), 3 (dizaines), 4 (unités).<br>
+  <strong>Résultat : 13634.</strong></p>
+
+  <h3>Les avantages de cette méthode</h3>
+
+  <ul>
+    <li><strong>Rapidité :</strong> Elle évite les allers-retours pour gérer les retenues après coup.</li>
+    <li><strong>Clarté :</strong> Les calculs suivent un ordre logique et progressif.</li>
+    <li><strong>Adaptabilité :</strong> Elle peut être utilisée avec des nombres de toute longueur.</li>
+    <li><strong>Stimulation cognitive :</strong> Cette méthode renforce l’anticipation et la concentration.</li>
+  </ul>
+
+  <h3>Les limites et précautions</h3>
+
+  <ul>
+    <li><strong>Retenues multiples :</strong> Elles peuvent se propager sur plusieurs colonnes et perturber le calcul si elles ne sont pas anticipées.</li>
+    <li><strong>Apprentissage :</strong> Cette méthode nécessite un entraînement pour développer une capacité d’analyse rapide.</li>
+    <li><strong>Validation finale :</strong> Vérifiez le résultat avec une autre méthode comme l’arrondi.</li>
+  </ul>
+
+  <h2>La méthode de soustraction intuitive</h2>
+
+  <p>La soustraction intuitive, inspirée de la méthode d’addition intuitive, permet de résoudre des soustractions de grands nombres mentalement, rapidement, et sans démarche écrite. Cette méthode repose sur une approche de gauche à droite, où l’on anticipe les "emprunts" nécessaires dans les colonnes suivantes pour simplifier le calcul.</p>
+
+  <h3>Les principes de la méthode</h3>
+
+  <p><strong>Soustraire de gauche à droite :</strong><br>
+  Contrairement à la méthode classique qui commence par les unités, cette méthode démarre avec les chiffres les plus significatifs (milliers, centaines, etc.).</p>
+
+  <p><strong>Anticiper les emprunts :</strong><br>
+  Après avoir soustrait une colonne, analysez immédiatement si un emprunt sera nécessaire dans la colonne suivante. Si oui, ajustez immédiatement le total actuel.</p>
+
+  <p><strong>Procéder colonne par colonne jusqu’à la fin :</strong><br>
+  Continuez de soustraire les chiffres en tenant compte des emprunts anticipés, jusqu’à atteindre les unités.</p>
+
+  <h3>Comment appliquer la méthode</h3>
+
+  <p><strong>Exemple : 8937 − 4697</strong></p>
+
+  <p><strong>Commencez par les milliers :</strong><br>
+  Soustrayez 8 − 4 = 4.<br>
+  Regardez les centaines suivantes : 9 − 6 = 3 (pas besoin d’emprunt).<br>
+  Total pour les milliers : 4.</p>
+
+  <p><strong>Passez aux centaines :</strong><br>
+  Soustrayez 9 − 6 = 3.<br>
+  Regardez les dizaines suivantes : 3 − 9 = négatif (emprunt nécessaire).<br>
+  Ajustez immédiatement en soustrayant 1 des centaines : 3 − 1 = 2.<br>
+  Total pour les centaines : 2.</p>
+
+  <p><strong>Soustrayez les dizaines :</strong><br>
+  Avec l’emprunt, la valeur des dizaines devient 13 − 9 = 4.<br>
+  Regardez les unités suivantes : 7 − 7 = 0 (pas besoin d’emprunt).<br>
+  Total pour les dizaines : 4.</p>
+
+  <p><strong>Terminez avec les unités :</strong><br>
+  Soustrayez 7 − 7 = 0.<br>
+  Pas d’ajustement nécessaire ici.<br>
+  Total pour les unités : 0.</p>
+
+  <p><strong>Résultat final :</strong><br>
+  Concaténez les résultats : 4 (milliers), 2 (centaines), 4 (dizaines), 0 (unités).<br>
+  <strong>Résultat : 4240.</strong></p>
+
+  <h3>Les avantages de cette méthode</h3>
+
+  <ul>
+    <li><strong>Rapidité :</strong> Elle réduit le besoin de recalculer les emprunts à la fin.</li>
+    <li><strong>Clarté :</strong> Le calcul suit un ordre logique, de gauche à droite.</li>
+    <li><strong>Adaptabilité :</strong> Elle fonctionne pour des nombres de toute longueur.</li>
+    <li><strong>Efficacité cognitive :</strong> Cette méthode renforce les capacités d’analyse et de prévision mentale.</li>
+  </ul>
+
+  <h3>Les limites et précautions</h3>
+
+  <ul>
+    <li><strong>Emprunts multiples :</strong> Comme avec les retenues en addition, les emprunts qui affectent plusieurs colonnes peuvent compliquer le calcul.</li>
+    <li><strong>Apprentissage progressif :</strong> Cette méthode demande de l’entraînement pour bien anticiper les emprunts.</li>
+    <li><strong>Validation finale :</strong> Vérifiez le résultat avec une méthode classique ou une estimation (comme l’arrondi).</li>
+  </ul>
+</div>
+
+
+    <div class="start-button">
+      <button onclick="window.location.href='jeu.html'">Accéder au jeu</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Ton Nom / Nom du jeu — Tous droits réservés
+  </footer>
+
+</body>
+</html>
+
+
